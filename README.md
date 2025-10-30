@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'
 ## Otro Ejemplo
 Las matrices asociativas son matrices que utilizan claves con nombre como índices para sus valores.
 Ejemplo: $age = array(“Jonh”=> “11”, "Ken"=>"19", "Tim"=>"14“);
-También podemos llegar al objeto JSON del libro que vimos anteriormente codificando una matriz asociativa como tal: 
+Codificando una matriz asociativa con Json:
 ``` en PHP
 <?php 
      $book = array("id"=>101, "label"=>"Lorem Ipsum"); 
