@@ -1,12 +1,13 @@
-## 🚀 Tecnologías y Herramientas
-![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
 ## ¿Qué es JSON?
 
 JSON nos permite representar y encapsular datos complejos de forma organizada, lo que facilita su uso en internet. 
 Aunque su nombre deriva de JavaScript, JSON fue creado para ser utilizado por todos los lenguajes de programación. 
+
+## Tecnologías y Herramientas
+![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
 ## Convertir objetos PHP a JSON
 Dado que la información en JSON se almacena en pares clave/valor, es más probable que  json_encode()  se utilice para
