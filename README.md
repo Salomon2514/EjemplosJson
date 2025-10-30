@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'
  
 }
 ?>
-``` en PHP
+```
 
 ## json_encode() 
 Retorna la representación JSON del valor dado.
