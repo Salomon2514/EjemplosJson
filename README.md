@@ -16,6 +16,7 @@ codificar objetos PHP y sus variables de instancia. 
 header('Content-Type: application/json');
 //¿Qué hace?
 //Informa al cliente (navegador o app) que la respuesta que devolverá este script será en formato JSON.
+//También es útil para evitar errores de interpretación del contenido por parte del navegador o herramientas externas.
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST'
  && isset($_POST['surname']) && isset($_POST['nombre'])) {
