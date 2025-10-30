@@ -118,6 +118,7 @@ Universidad Tecnológica de Panamá
 
 
 ## 📖 Referencias
+![GitHub watchers](https://img.shields.io/github/watchers/Salomon2514/EjemplosJson.svg?style=social)
 ![Status](https://img.shields.io/badge/Estado-Finalizado-success)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
