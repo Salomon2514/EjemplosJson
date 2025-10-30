@@ -7,7 +7,7 @@ Aunque su nombre deriva de JavaScript, JSON fue creado para ser utilizado por to
 Dado que la información en JSON se almacena en pares clave/valor, es más probable que  json_encode()  se utilice para
 codificar objetos PHP y sus variables de instancia. 
 
-# Ejemplo de objeto PHP a JSON
+## Ejemplo de objeto PHP a JSON
 
 ``` en PHP
 <?php
