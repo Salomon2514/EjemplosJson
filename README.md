@@ -34,6 +34,35 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'
 Retorna la representación JSON del valor dado.
 json_encode() es una función nativa de PHP que le permite convertir datos PHP al formato JSON.
 
+**Editor de Código :** 
+- Visual Estudio Code
+
+## 🔢 Estadísticas
+
+ ![Creado](https://img.shields.io/badge/Creado-30--10--2025-blue)
+![Visitor Count](https://badgen.net/github/watchers/Salomon2514/EjemplosJson)
+![Visitas](https://visitor-badge.laobi.icu/badge?page_id=Salomon2514.EjemplosJson)
+
+## 📚 Cómo usar este repositorio
+
+1. Descarga o clona el repositorio, ubica una carpeta en www -> para WampServer o htdocs  si es Xampp
+  ```bash
+   [https://github.com/Salomon2514/EjemplosJson.git]
+2. Para correrlos edita el URL de su navegador:  http://127.1.1.1/Carpeta/ o  http://localhost/Carpeta/
+```
+
+## 👨‍🏫 Autor
+
+**Irina Fong**  
+Docente de Programación  
+Universidad Tecnológica de Panamá  
+
+📧 **Email:** irina.fong@utp.ac.pa  
+📧 **Email:** irinafong@gmail.com<br>
+🌐 **GitHub:**(https://github.com/Salomon2514)  
+
+
+## 📖 Referencias
 
 
 
