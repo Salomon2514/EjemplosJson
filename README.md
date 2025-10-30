@@ -9,7 +9,7 @@ codificar objetos PHP y sus variables de instancia. 
 
 ## Ejemplo de objeto PHP a JSON
 
-<img width="1339" height="583" alt="image" src="https://github.com/user-attachments/assets/efbbbfaf-e3e5-454b-8dc1-870594b860b8" />
+<img width="400" height="100" alt="image" src="https://github.com/user-attachments/assets/efbbbfaf-e3e5-454b-8dc1-870594b860b8" />
 
 ``` en PHP
 <?php
@@ -30,6 +30,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'
 }
 ?>
 ```
+
+## Otro Ejemplo
+Las matrices asociativas son matrices que utilizan claves con nombre como índices para sus valores.
+Ejemplo: $age = array(“Jonh”=> “11”, "Ken"=>"19", "Tim"=>"14“);
+También podemos llegar al objeto JSON del libro que vimos anteriormente codificando una matriz asociativa como tal: 
+``` en PHP
+<?php 
+     $book = array("id"=>101, "label"=>"Lorem Ipsum"); 
+     echo json_encode($book); 
+?>
+```
+
 
 ## json_encode() 
 Retorna la representación JSON del valor dado.
