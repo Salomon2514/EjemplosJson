@@ -9,6 +9,8 @@ codificar objetos PHP y sus variables de instancia. 
 
 ## Ejemplo de objeto PHP a JSON
 
+<img width="1339" height="583" alt="image" src="https://github.com/user-attachments/assets/efbbbfaf-e3e5-454b-8dc1-870594b860b8" />
+
 ``` en PHP
 <?php
 
