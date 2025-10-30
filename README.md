@@ -7,9 +7,45 @@ Aunque su nombre deriva de JavaScript, JSON fue creado para ser utilizado por to
 Dado que la información en JSON se almacena en pares clave/valor, es más probable que  json_encode()  se utilice para
 codificar objetos PHP y sus variables de instancia. 
 
-## Ejemplo de objeto PHP a JSON
+## Ejemplo de Fetch con PHP y respuesta en formato JSON
+``` en Fetch
+<form id="formElem" >
+    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre"  required/>
+    <input type="text" id="surname" name="surname" placeholder="Tu apellido" required />
+    <input   type="submit" id="enviar" />
+     <input   type="reset" id="Limpiar" />
+</form> 
+<p id="respuesta"></p>
 
-<img width="400" height="100" alt="image" src="https://github.com/user-attachments/assets/efbbbfaf-e3e5-454b-8dc1-870594b860b8" />
+    <script>
+       formElem.onsubmit = async(e) =>{
+           e.preventDefault(); //evitar el comportamiento del evento.
+           
+          let response = await fetch('procesa_formdata.php',{
+               method: 'POST',
+               body: new FormData(formElem)
+           });
+           
+           let result = await response.json();
+           //alert(result.message);
+
+           const resultadoDiv = document.getElementById('respuesta');
+          resultadoDiv.innerHTML = `
+            <h3>Resultados</h3>
+            <p>Nombre: ${result.nombre}</p>
+            <p>Apellido: ${result.apellido}</p>
+          `;
+   
+          };
+    </script>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<body>
+    
+</body>
+</html>
+```
+### Respuesta del lado de PHP
 
 ``` en PHP
 <?php
