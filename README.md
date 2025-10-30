@@ -1,3 +1,5 @@
+![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ## ¿Qué es JSON?
 
 JSON nos permite representar y encapsular datos complejos de forma organizada, lo que facilita su uso en internet. 
