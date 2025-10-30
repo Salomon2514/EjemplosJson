@@ -13,6 +13,9 @@ codificar objetos PHP y sus variables de instancia. 
 
 ``` en PHP
 <?php
+header('Content-Type: application/json');
+//¿Qué hace?
+//Informa al cliente (navegador o app) que la respuesta que devolverá este script será en formato JSON.
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST'
  && isset($_POST['surname']) && isset($_POST['nombre'])) {
@@ -24,8 +27,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'
    "apellido" => $apellido]);
  
 }
-``` en PHP
 ?>
+``` en PHP
+
+## json_encode() 
+Retorna la representación JSON del valor dado.
+json_encode() es una función nativa de PHP que le permite convertir datos PHP al formato JSON.
+
+
+
 
 
 
