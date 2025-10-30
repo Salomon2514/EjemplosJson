@@ -114,6 +114,8 @@ Universidad Tecnológica de Panamá
 
 
 ## 📖 Referencias
+![Status](https://img.shields.io/badge/Estado-Finalizado-success)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 
 
